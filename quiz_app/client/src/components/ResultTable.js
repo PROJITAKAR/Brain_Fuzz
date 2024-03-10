@@ -22,8 +22,8 @@ export default function ResultTable() {
                     <td>Result</td>
                 </tr>
             </thead>
-            <tbody>
-                { !data ?? <div>No Data Found </div>}
+            <tbody>   
+            { !data ?? <div>No Data Found </div>}
                 {
                     data.map((v, i) => (
                         <tr className='table-body' key={i}>
@@ -34,7 +34,6 @@ export default function ResultTable() {
                         </tr>
                     ))
                 }
-                
             </tbody>
         </table>
     </div>

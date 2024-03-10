@@ -15,7 +15,7 @@ export async function getQuestions(req, res){
 /** insert all questinos */
 export async function insertQuestions(req, res){
     try {
-        Questions.insertMany({ questions, answers}, function(err, data){
+        Questions.insertMany({ questions, answers }, function(err, data){
             res.json({ msg: "Data Saved Successfully...!"})
         })
     } catch (error) {

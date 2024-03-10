@@ -17,6 +17,7 @@ export default function Result() {
     const dispatch = useDispatch()
     const { questions : { queue ,answers}, result : { result, userId}}  = useSelector(state => state)
 
+    
     const totalPoints = queue.length * 10; 
     const attempts = attempts_Number(result);
     const earnPoints = earnPoints_Number(result, answers, 10)
@@ -43,7 +44,7 @@ export default function Result() {
         <div className='result flex-center'>
             <div className='flex'>
                 <span>Username</span>
-                <span className='bold'>{userId || ""}</span>
+                <span className='bold'>{userId || ""}</span> 
             </div>
             <div className='flex'>
                 <span>Total Quiz Points : </span>
