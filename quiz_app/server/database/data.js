@@ -1,49 +1,94 @@
 export default [
     {
         id: 1,
-        question : "Javascript is an _______ language",
+        question : "Who is the author of 'The Adventures of Sherlock Holmes'?",
         options : [
-            'Object-Oriented',
-            'Object-Based',
-            'Procedural',
+            'Arthur Conan Doyle',
+            'Agatha Christie',
+            'J.K. Rowling',
         ]
     },
     {
         id: 2,
-        question : "Following methods can be used to display data in some form using Javascript",
+        question : "Which singer released the album '21'?",
         options : [
-            'document.write()',
-            'console.log()',
-            'window.alert()',
+            'Taylor Swift',
+            'Adele',
+            'Beyoncé',
         ]
     },
     {
         id: 3,
-        question : "When an operator value is NULL, the typeof returned by the unary operator is:",
+        question : "Which TV series features the character Walter White?",
         options : [
-            'Boolean',
-            'Undefined',
-            'Object',
+            'Game of Thrones',
+            'The Sopranos',
+            'Breaking Bad',
         ]
     },
     {
         id: 4,
-        question : "What does the toString() method return?",
+        question : "What type of beans are used to make baked beans?",
         options : [
-            'Return Object',
-            'Return String',
-            'Return Integer'
+            'Kidney beans',
+            'Navy beans',
+            'Black beans'
         ]
     },
     {
         id: 5,
-        question : "Which function is used to serialize an object into a JSON string?",
+        question : "Which horse won the Triple Crown in 2018?",
         options : [
-            'stringify()',
-            'parse()',
-            'convert()',
+            'Justify',
+            'American Pharoah',
+            'Affirmed',
+        ]
+    },
+    {
+        id: 6,
+        question : "Which country is known as the 'Pearl of Africa'?",
+        options : [
+            'Tanzania',
+            'Uganda',
+            'Kenya',
+        ]
+    },
+    {
+        id: 7,
+        question : "Who was the leader of the Soviet Union during World War II?",
+        options : [
+            'Vladimir Lenin',
+            'Mikhail Gorbachev',
+            'Joseph Stalin',
+        ]
+    },
+    {
+        id: 8,
+        question : "What is the closest star to Earth?",
+        options : [
+            'Proxima Centauri',
+            'Sun',
+            'Alpha Centauri',
+        ]
+    },
+    {
+        id: 9,
+        question : "What is the traditional dance of Hawaii called?",
+        options : [
+            'Hula',
+            'Samba',
+            'Tango',
+        ]
+    },
+    {
+        id: 10,
+        question : "Who is the author of the novel 'The Great Gatsby'?",
+        options : [
+            'F. Scott Fitzgerald',
+            'Virginia Woolf',
+            'Ernest Hemingway',
         ]
     }
 ];
 
-export const answers = [0, 1, 2, 1, 0];
+export const answers = [0, 1, 2, 1, 0, 1, 2, 1, 0, 0];
